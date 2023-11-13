@@ -1,9 +1,9 @@
 h1{
     text-align: center;
+    font-family: cursive;
 }
 .table{
     display: flex;
-    font-family: cursive;
     justify-content: center;
     list-style: none;
 }
