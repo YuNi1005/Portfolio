@@ -1,3 +1,10 @@
+.table{
+    font-family: cursive;
+    font-size: 24px;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+}
 h1{
     text-align: center;
 }
