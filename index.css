@@ -4,7 +4,7 @@ h1{
 }
 .table{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     list-style: none;
 }
 li{
