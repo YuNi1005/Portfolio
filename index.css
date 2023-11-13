@@ -8,5 +8,8 @@ h1{
     width: 350px;
     height: 200px;
     text-align: center;
+    display: flex;
 }
-
+li{
+    margin-left: 20px;
+}
