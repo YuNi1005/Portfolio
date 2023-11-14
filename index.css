@@ -9,6 +9,7 @@ h1{
 }
 .table{
     width:auto;
+    height: 10pt;
     display: flex;
     justify-content: space-around;
     list-style: none;
