@@ -8,7 +8,7 @@ h1{
     margin-block-end: 0em;
 }
 .table{
-    width:max-content;
+    width:auto;
     display: flex;
     justify-content: space-around;
     list-style: none;
