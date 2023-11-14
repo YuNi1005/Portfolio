@@ -12,6 +12,7 @@ h1{
     height: 10pt;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     list-style: none;
     background-color: black;
 }
