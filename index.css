@@ -10,7 +10,7 @@ h1{
 .table{
     width:max-content;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     list-style: none;
     background-color: black;
 }
