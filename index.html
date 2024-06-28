@@ -1,62 +1,62 @@
 <!DOCTYPE html>
 <html lang="ja">
- <head>
- <meta charset="utf-8">
- <title>Portfolio</title>
- <meta name="description" content="高専生のポートフォリオです。">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="css/index.css">
- </head>
- <body>
-    <h1>Yuzuki Nishimoto's Portfolio</h1>
-    <div class="table">
-        <li>
-            <a href="#profile">profile</a>
-            <a href="#history">history</a>
-            <a href="#skill">skill</a>
-            <a href="#work">work</a>
-        </li>
-    </div>
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio</title>
+        <meta name="description" content="高専生のポートフォリオです。">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
 
-    <h2 id="profile">profile</h2>
-    <div class="Profile">
-        <h4>生年月日：2006年10月05日</h4>
-        <h4>所属：大阪公立大学工業高等専門学校</h4>
-    </div>
+    <body>
+        <header id="header">
+            <h1 class="site-title"></h1>
+            <nav>
+                <ul>
+                    <li><a href="#profile">profile</a></li>
+                    <li><a href="#history">history</a></li>
+                    <li><a href="#skill">skill</a></li>
+                    <li><a href="#work">work</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="mainvisual">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="img/mainvisual-sp.jpg">
+                    <img src="img/mainvisual-pc.jpg">
+                </picture>
+            </div>
 
-    <h2 id="history">history</h2>
-    <div class="History">
-        <h4>2022/4　大阪公立大学工業高等専門学校入学</h4>
-        <h4>2022/5　プログラミング研究会入部</h4>
-        <h4>2023/4　知能情報コースに配属</h4>
-        <h4>2023/7　GoogleColabで簡易スロットの制作</h4>
-    </div>
+            <section id="profile">
+                <h2 class="sec-title">profile</h2>
+                <ul>
+                    <li>name:西本佑槻</li>
+                    <li>birthday:2006/10/05</li>
+                    <li>affiliation:大阪公立大学工業高等専門学校 知能情報コース</li>
+                </ul>
+            </section>
 
-    <h2 id="skill">skill</h2>
-    <div class="Skill">
-        <h4>C++:所属している部活動で学習中。</h4>
-        <h4>Python：プログラミングの授業で学習中。その他、AIについて個人的に学習中。</h4>
-        <h4>HTML,CSS：1年次の実験実習で学習。また、今回のポートフォリオでも学習。</h4>
-        <h4>Tools：</h4>
-        <div class="Tools"></div>
-            <h4>Git/Github</h4>
-            <h4>VSCode</h4>
-            <h4>ArduinoIDE</h4>
-            <h4>Dees-DcS</h4>
-            <h4>MakeCode for micro:bit</h4>
-            <h4>Tinkercad</h4>
-            <h4>WSL</h4>
-            <h4>Ambient</h4>
-        </div>
-    </div>
+            <section id="history">
+                <h2 class="sec-title">history</h2>
+                <ul>
+                    <li>2022/4　大阪公立大学工業高等専門学校入学</li>
+                    <li>2022/5　プログラミング研究会入部</li>
+                    <li>2023/4　知能情報コースに配属</li>
+                    <li>2023/7　GoogleColabで簡易スロットの制作</li>
+                </ul>
+            </section>
 
-    <h2 id="work">work</h2>
-    <div class="Work">
-        <h4>制作物一覧です。</h4>
-        <h4>制作：2023/7 2年次の個人制作物</h4>
-        <a href="https://github.com/YuNi1005/colab">Colab上で作成した簡単なスロットゲーム</a>
-        <h4>制作：2023/5~ 2年次のチーム制作物</h4>
-        <h4>総合課題実習というチーム開発プロジェクトにおいて地震の避難訓練のシミュレーションを制作中</h4>
-    </div>
- </body>
+            <section id="skill">
+                <h2 class="sec-title">skill</h2>
+                <ul>
+                    <li><img src="img/works1.jpg" alt="テキストテキストテキスト"></li>
+                    <li><img src="img/works2.jpg" alt="テキストテキストテキスト"></li>
+                    <li><img src="img/works3.jpg" alt="テキストテキストテキスト"></li>
+                    
+                </ul>
+            </section>
+        </main>
+    </body>
 </html>
