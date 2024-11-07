@@ -1,3 +1,7 @@
 body {
     font-family: 'Noto Serif JP', serif;
 }
+
+:lang(en) {
+    font-family: 'Merriweather', serif;
+}
