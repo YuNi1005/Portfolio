@@ -11,6 +11,12 @@ body {
     height: auto;
 }
 
+li {
+    list-style: none;
+    display: inline-block;
+    min-width: 90px;
+    margin: 0 15px;
+}
 /* .header li:not(:last-child) {
     margin-right: 10px;
     border-right:2px solid #ddd;
