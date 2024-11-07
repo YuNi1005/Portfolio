@@ -6,8 +6,20 @@ body {
     width: 100%;
 }
 
-.header li a,a:visited {
-    color: blue;
+.header li {
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    width: 10%;
+    min-width: 90px;
+}
+
+.header li:not(:last-child){
+    border-right:2px solid #ddd;
+}
+
+.header li a,a:visited{
+    color: black;
 }
 
 .header-image {
