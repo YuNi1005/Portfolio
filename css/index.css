@@ -3,20 +3,35 @@ body {
 }
 
 .header {
+    text-align: center;
+}
+
+.header .header-image {
+    width: 100%;
+    height: auto;
+}
+
+.header ul {
     display: flex;
     justify-content: center;
     padding: 0;
     margin: 0;
+    list-style: none;
+    flex-wrap: wrap;
 }
 
 .header li {
-    list-style: none;
-    flex: 1;
+    margin: 10px;
     text-align: center;
-    padding: 10px;
 }
 
-.header li:not(:last-child) {
+.header li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+/* .header li:not(:last-child) {
     margin-right: 10px;
     border-right:2px solid #ddd;
 }
@@ -30,11 +45,6 @@ body {
     border-bottom:2px solid #44d2eb;
 }
 
-.header-image {
-    width: 100%;
-    height: auto;
-}
-
 .main {
     width: 100%;
-}
+} */
