@@ -8,10 +8,10 @@ body {
 
 .header li {
     text-align: center;
-    list-style: none;
+    /* list-style: none;
     display: inline-block;
     width: 10%;
-    min-width: 90px;
+    min-width: 90px; */
 }
 
 /* .header li:not(:last-child) {
