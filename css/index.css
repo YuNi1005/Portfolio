@@ -12,6 +12,7 @@ body {
 }
 
 .header li {
+    text-decoration: none;
     list-style: none;
     display: inline-block;
     width: 20%;
