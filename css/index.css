@@ -6,7 +6,7 @@ body {
     width: 100%;
 }
 
-.header li {
+.header li a {
     margin: 0 ;
     padding: 0 ;
     text-align: center;
