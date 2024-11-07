@@ -3,19 +3,21 @@ body {
 }
 
 .header {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     padding: 0;
     margin: 0;
 }
 
 .header li {
     list-style: none;
-    display: inline-block;
-    width: 50%;
-    margin: 0 15px;
+    flex: 1;
+    text-align: center;
+    padding: 10px;
 }
 
-/* .header li:not(:last-child) {
+.header li:not(:last-child) {
+    margin-right: 10px;
     border-right:2px solid #ddd;
 }
 
@@ -26,7 +28,7 @@ body {
 .header a:hover {
     color:#44d2eb;
     border-bottom:2px solid #44d2eb;
-} */
+}
 
 .header-image {
     width: 100%;
