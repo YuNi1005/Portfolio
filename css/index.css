@@ -23,7 +23,7 @@ body {
     border-right:2px solid #ddd;
 }
 
-/* .header a,a:visited {
+.header a,a:visited {
     color: black;
 }
 
@@ -34,4 +34,4 @@ body {
 
 .main {
     width: 100%;
-} */
+}
