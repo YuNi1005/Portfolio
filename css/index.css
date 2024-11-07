@@ -1,3 +1,8 @@
 body {
     font-family: 'Merriweather','Noto Serif JP', serif;
 }
+
+.header-image {
+    width: 100%;
+    height: auto;
+}
