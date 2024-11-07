@@ -2,6 +2,10 @@ body {
     font-family: 'Merriweather','Noto Serif JP', serif;
 }
 
+.header {
+    width: 100%;
+}
+
 .header-image {
     width: 100%;
     height: auto;
