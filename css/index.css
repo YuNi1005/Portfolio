@@ -10,7 +10,8 @@ body {
 
 .header li {
     list-style: none;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     min-width: 90px;
 }
 
