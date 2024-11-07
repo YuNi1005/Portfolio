@@ -3,14 +3,12 @@ body {
 }
 
 .header {
-    width: 100%;
+    text-align: center;
 }
 
 .header li {
-    text-align: center;
     list-style: none;
     display: inline-block;
-    width: 100%;
     min-width: 90px;
 }
 
