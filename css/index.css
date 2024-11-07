@@ -14,12 +14,17 @@ body {
     min-width: 90px;
 }
 
-.header li:not(:last-child){
+.header li:not(:last-child) {
     border-right:2px solid #ddd;
 }
 
-.header li a,a:visited{
+.header li a,a:visited {
     color: black;
+}
+
+.header li a:hover {
+    color:#44d2eb;
+    border-bottom:2px solid #44d2eb;
 }
 
 .header-image {
