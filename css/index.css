@@ -11,26 +11,6 @@ body {
     height: auto;
 }
 
-.header ul {
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    flex-wrap: wrap;
-}
-
-.header li {
-    margin: 10px;
-    text-align: center;
-}
-
-.header li a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: black;
-}
 /* .header li:not(:last-child) {
     margin-right: 10px;
     border-right:2px solid #ddd;
