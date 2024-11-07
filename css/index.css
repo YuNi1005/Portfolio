@@ -11,7 +11,7 @@ body {
 .header li {
     list-style: none;
     display: inline-block;
-    min-width: 90px;
+    width: 100%;
     margin: 0 15px;
 }
 
