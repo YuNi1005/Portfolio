@@ -6,7 +6,15 @@ body {
     width: 100%;
 }
 
+.header li a,a:visited {
+    color: blue;
+}
+
 .header-image {
     width: 100%;
     height: auto;
+}
+
+.main {
+    width: 100%;
 }
