@@ -32,5 +32,5 @@ body {
 }
 
 .icon-link:hover img {
-    filter: brightness(0) saturate(100%) invert(51%) sepia(27%) saturate(2283%) hue-rotate(175deg) brightness(97%) contrast(95%);
+    filter: brightness(0) saturate(100%) invert(38%) sepia(25%) saturate(2282%) hue-rotate(158deg) brightness(97%) contrast(95%);
 }
