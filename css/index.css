@@ -29,9 +29,9 @@ body {
 }
 
 .icon-link:hover {
-    color: #8fe3ff
+    color: #89cee4
 }
 
 .icon-link:hover img {
-    filter: brightness(0) saturate(100%) invert(56%) sepia(40%) saturate(2532%) hue-rotate(178deg) brightness(97%) contrast(95%);
+    filter: brightness(0) saturate(100%) invert(51%) sepia(27%) saturate(2283%) hue-rotate(175deg) brightness(97%) contrast(95%);
 }
