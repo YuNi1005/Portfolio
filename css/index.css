@@ -15,7 +15,7 @@ body {
     text-decoration: none;
     list-style: none;
     display: inline-block;
-    width: 10px;
+    width: 90px;
 }
 
 .header li:not(:last-child) {
