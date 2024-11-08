@@ -1,8 +1,5 @@
 body {
     font-family: 'Merriweather','Noto Serif JP', serif;
-}
-
-.header {
     text-align: center;
 }
 
@@ -11,20 +8,24 @@ body {
     height: auto;
 }
 
-.header li {
-    text-decoration: none;
+.header ul li {
     list-style: none;
     display: inline-block;
-    max-width: 90px;
 }
 
-.header li:not(:last-child) {
+.header ul li:not(:last-child) {
     margin-right: 10px;
     border-right:2px solid #ddd;
 }
 
+.header ul li a img {
+    width: 90px;
+    height: 90px;
+}
+
 .header a,a:visited {
     color: #3AABD2;
+    text-decoration: none;
 }
 
 .header a:hover {
