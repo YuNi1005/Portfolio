@@ -11,16 +11,13 @@ body {
 .header ul li {
     list-style: none;
     display: inline-block;
+    width: 100px;
+    height: 100px;
 }
 
 .header ul li:not(:last-child) {
     margin-right: 10px;
     border-right:2px solid #ddd;
-}
-
-.header ul li a img {
-    width: 90px;
-    height: 90px;
 }
 
 .header a,a:visited {
