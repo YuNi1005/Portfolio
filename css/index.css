@@ -15,7 +15,6 @@ body {
     gap: 20px;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
 .icon-link {
@@ -26,8 +25,8 @@ body {
 }
 
 .icon-link img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 .icon-link:hover {
