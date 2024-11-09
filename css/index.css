@@ -25,6 +25,16 @@ body {
     color: #3AABD2;
 }
 
+.icon-link:not(:last-child)::after {
+    content: "";
+    width: 1px;
+    height: 60px;
+    background: gray;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
 .icon-link img {
     width: 100px;
     height: 100px;
