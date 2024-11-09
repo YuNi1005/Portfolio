@@ -27,7 +27,7 @@ body {
 
 .icon-link:not(:last-child)::after {
     content: "";
-    width: 1px;
+    width: 2px;
     height: 60px;
     background: gray;
     position: absolute;
