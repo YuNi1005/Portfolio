@@ -1,7 +1,11 @@
 const lines = [
     "> boot --portfolio Yuzuki.dev",
     "> initializing modules...",
-    "> loading projects...",
+    "> loading About Me...",
+    "> loading Skills...",
+    "> loading Projects...",
+    "> loading Experience...",
+    "> loading Contact...",
     "> ready."
 ];
 
@@ -28,7 +32,7 @@ function typeCharacter() {
             setTimeout(() => {
                 document.getElementById("boot-screen").style.display = "none";
                 document.getElementById("portfolio").style.display = "block";
-            }, 1000);
+            }, 2500);
         }
     }
 }
