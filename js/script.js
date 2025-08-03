@@ -1,10 +1,10 @@
 const lines = [
     "> boot --portfolio Yuzuki.dev",
     "> initializing modules...",
-    "> loading About Me...",
+    "> loading Home...",
+    "> loading About...",
     "> loading Skills...",
     "> loading Projects...",
-    "> loading Experience...",
     "> loading Contact...",
     "> ready."
 ];
@@ -44,4 +44,14 @@ function startBoot() {
 
 window.addEventListener("DOMContentLoaded", () => {
     setTimeout(startBoot, 2000);
+
+    document.querySelectorAll('#nav-links button').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const target = btn.getAttribute('data-target');
+            document.querySelectorAll('.section').forEach(sec => {
+                sec.classList.remove('active');
+            })
+            document.getElementById(target).classList.add('active');
+        })
+    })
 })
