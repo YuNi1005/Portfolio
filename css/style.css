@@ -83,6 +83,21 @@ section.active {
     display: block;
 }
 
+.hero-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Roboto', monospace;
+}
+
+.hero-tagline {
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+    font-style: italic;
+    color: #000000;
+    font-family: 'Roboto', monospace;
+}
+
 /* ===== 切り替えリンク ===== */
 #nav-links {
     position: fixed;
