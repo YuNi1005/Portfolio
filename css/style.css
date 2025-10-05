@@ -58,7 +58,7 @@ body {
 
 /* ===== ポートフォリオ本体 ===== */
 #portfolio {
-    padding: 2em;
+    padding: 0;
     color: #111111;
     background-color: #ffffff;
     height: 100vh;

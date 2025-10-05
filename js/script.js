@@ -5,7 +5,6 @@ const lines = [
     "> loading About...",
     "> loading Skills...",
     "> loading Projects...",
-    "> loading Contact...",
     "> ready."
 ];
 
