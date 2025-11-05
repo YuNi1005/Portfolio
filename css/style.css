@@ -68,6 +68,7 @@ body {
 
 /* ===== 各セクション ===== */
 section {
+    margin: 4rem;
     display: none;
     padding: 2rem;
     height: 100vh;
@@ -81,6 +82,17 @@ section {
 
 section.active {
     display: block;
+}
+
+.section-name {
+    font-size: large;
+    font-family: 'Roboto', monospace;
+}
+
+.section-name::after {
+    content: "_";
+    animation: blink 1s step-start infinite;
+    margin-left: 4px;
 }
 
 /* ===== homeタブの名前 =====*/
